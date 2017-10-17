@@ -16,7 +16,7 @@ RUN cd /tmp \
 	&& rm -rf /tmp/*
 
 
-CMD ["qtumd -datadir=/data"]
+CMD ["/usr/local/bin/qtumd -datadir=/data"]
 
 EXPOSE 3888 3889 13888 13889 23888
 
