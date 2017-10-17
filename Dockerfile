@@ -1,4 +1,4 @@
-FROM jeanblanchard/alpine-glibc
+FROM alpine:3.5
 
 VOLUME /data
 
