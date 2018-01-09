@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /var/lib/apt/lists/*
 
 ENV QTUM_VERSION 1.0.2
-ENV QTUM_URL https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v1.0.2/qtum-0.14.3-x86_64-linux-gnu.tar.gz
+ENV QTUM_URL https://github.com/qtumproject/qtum/releases/download/mainnet-ignition-v0.14.13/qtum-0.14.13-x86_64-linux-gnu.tar.gz
 
 # install qtum binaries
 RUN cd /tmp \
